@@ -303,7 +303,7 @@ export interface Directive {
    * View queries are set before the `ngAfterViewInit` callback is called.
    *
    * 内容查询会在调用 `ngAfterContentInit` 回调之前设置好。
-   * 试图查询会在调用 `ngAfterViewInit` 回调之前设置好。
+   * 视图查询会在调用 `ngAfterViewInit` 回调之前设置好。
    *
    * @usageNotes
    *
